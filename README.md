@@ -31,11 +31,10 @@ echo 'alias node="python3 -ub ~/Documents/.nvm/bin/node.py"' | tee -a ~/Document
 
 ### Uninstall (for a-Shell)
 
-Run these commands in a-Shell:
+Run this command in a-Shell:
 
 ```
-cd ~/Documents
-rm -rfv .nvm
+rm -rfv ~/Documents/.nvm
 ```
 
 Now find these lines and remove them in ```~/Documents/.bashrc``` and ```~/Documents/.profile``` (if one file doesn't exist, then do the other one):
