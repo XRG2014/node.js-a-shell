@@ -7,12 +7,8 @@ Run these commands in a-Shell:
 
 ```
 mkdir -p ~/Documents/.nvm/bin
-lg2 clone https://github.com/XRG2014/Node.js-a-Shell.git
-cd Node.js-a-Shell.git
-mv .nvm/bin/node.py ~/Documents/.nvm/bin
-mv .nvm/bin/nvm.py ~/Documents/.nvm/bin
-cd ..
-rm -rfv Node.js-a-Shell.git
+curl -o ~/Documents/.nvm/bin/nvm.py
+curl -o ~/Documents/.nvm/bin/node.py
 ```
 
 Now run **ONLY ONE PAIR** of commands shown below:
