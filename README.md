@@ -7,8 +7,8 @@ Run these commands in a-Shell:
 
 ```
 mkdir -p ~/Documents/.nvm/bin
-curl -o ~/Documents/.nvm/bin/nvm.py
-curl -o ~/Documents/.nvm/bin/node.py
+curl https://github.com/XRG2014/Node.js-a-Shell/blob/main/.nvm/bin/nvm.py -o ~/Documents/.nvm/bin/nvm.py
+curl https://github.com/XRG2014/Node.js-a-Shell/blob/main/.nvm/bin/node.py -o ~/Documents/.nvm/bin/node.py
 ```
 
 Now run **ONLY ONE PAIR** of commands shown below:
