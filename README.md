@@ -33,7 +33,7 @@ Run this command in a-Shell:
 rm -rfv ~/Documents/.nvm
 ```
 
-Now find these lines and remove them in ```~/Documents/.bashrc``` and ```~/Documents/.profile``` (if one file doesn't exist, then do the other one):
+Now find these lines and remove them in ```~/Documents/.bashrc``` and ```~/Documents/.profile``` (If one file doesn't exist, then do the other one. And if the lines don't exist in one file then just ignore it.):
 
 ```
 alias nvm="python3 -ub ~/Documents/.nvm/bin/nvm.py"
