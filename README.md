@@ -1,5 +1,5 @@
-# Node.js for [a-Shell](https://holzschu.github.io/a-Shell_iOS)
-A version of Node that I coded for ios a-Shell. It uses the jsc command, and it includes a fake NVM (Node Version Manager).
+# Node.js for iOS/iPadOS [a-Shell](https://holzschu.github.io/a-Shell_iOS)
+A version of Node that I coded for iOS/iPadOS a-Shell. It uses the jsc command, and it includes a fake NVM (Node Version Manager).
 
 ### Install (for a-Shell):
 
