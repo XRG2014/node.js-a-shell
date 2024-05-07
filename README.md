@@ -14,12 +14,14 @@ curl https://github.com/XRG2014/Node.js-a-Shell/blob/main/.nvm/bin/node.py -o ~/
 Now run **ONLY ONE PAIR** of commands shown below:
 
 > _This one uses ```~/Documents/.bashrc```_:
+
 ```
 echo 'alias nvm="python3 -ub ~/Documents/.nvm/bin/nvm.py"' | tee -a ~/Documents/.bashrc
 echo 'alias node="python3 -ub ~/Documents/.nvm/bin/node.py"' | tee -a ~/Documents/.bashrc
 ```
 
 > _This one uses ```~/Documents/.profile```_:
+
 ```
 echo 'alias nvm="python3 -ub ~/Documents/.nvm/bin/nvm.py"' | tee -a ~/Documents/.profile
 echo 'alias node="python3 -ub ~/Documents/.nvm/bin/node.py"' | tee -a ~/Documents/.profile
