@@ -1,7 +1,7 @@
 # Node.js for iOS/iPadOS [a-Shell](https://holzschu.github.io/a-Shell_iOS)
-A version of Node that I coded for iOS/iPadOS a-Shell. It uses the jsc command, and it includes a fake NVM (Node Version Manager).
+A version of [Node.js](https://nodejs.org) that I coded for iOS/iPadOS a-Shell. It uses the jsc command, and it includes a fake [NVM](https://github.com/nvm-sh/nvm) (Node Version Manager).
 
-### Install (for a-Shell):
+### Install:
 
 Run these commands in a-Shell:
 
@@ -27,7 +27,7 @@ echo 'alias nvm="python3 -ub ~/Documents/.nvm/bin/nvm.py"' | tee -a ~/Documents/
 echo 'alias node="python3 -ub ~/Documents/.nvm/bin/node.py"' | tee -a ~/Documents/.profile
 ```
 
-### Uninstall (for a-Shell)
+### Uninstall:
 
 Run this command in a-Shell:
 
@@ -35,7 +35,9 @@ Run this command in a-Shell:
 rm -rfv ~/Documents/.nvm
 ```
 
-Now find these lines and remove them in ```~/Documents/.bashrc``` and ```~/Documents/.profile``` (If one file doesn't exist, then do the other one. And if the lines don't exist in one file then just ignore it.):
+Now find these lines and remove them in ```~/Documents/.bashrc``` and ```~/Documents/.profile```, or which ever one you used to install Node.js:
+
+(If the lines don't exist in the file then you can ignore it.)
 
 ```
 alias nvm="python3 -ub ~/Documents/.nvm/bin/nvm.py"
