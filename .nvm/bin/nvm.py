@@ -13,35 +13,35 @@ ver = "2.x"
 
 def ht():
     print("usage: nvm [--help] [--version] [-hv?] ...")
-    print("-?, -h, --help:              display help text.")
+    print("-?, -h, --help:              display help text")
     print("-v, --version, version:      display current set version of Node")
-    print("ls-remote, version-remote:   list available Node releases / versions.")
-    print("list:                        display all installed versions of Node.")
-    print("ls:                          display all installed versions of Node with extra release info.")
-    print("use, install:                set current version of Node.")
-    print("alias:                       set Node version alias.")
-    print("exec, run:                   run javascript program with Node.")
-    print("which:                       display path to Node executable.")
+    print("ls-remote, version-remote:   list available Node releases / versions")
+    print("list:                        display all installed versions of Node")
+    print("ls:                          display all installed versions of Node with extra release info")
+    print("use, install:                set current version of Node")
+    print("alias:                       set Node version alias")
+    print("exec, run:                   run javascript program with Node")
+    print("which:                       display path to Node executable")
 def invalid():
-    print(f'{Fore.LIGHTRED_EX}Error:{Fore.RESET} invalid argument.')
+    print(f'{Fore.LIGHTRED_EX}Error:{Fore.RESET} invalid argument')
 def invalid_v():
-    print(f'{Fore.LIGHTRED_EX}Error:{Fore.RESET} invalid version.')
+    print(f'{Fore.LIGHTRED_EX}Error:{Fore.RESET} invalid version')
 def invalid_p():
-    print(f'{Fore.LIGHTRED_EX}Error:{Fore.RESET} invalid package.')
+    print(f'{Fore.LIGHTRED_EX}Error:{Fore.RESET} invalid package')
 def invalid_a():
-    print(f'{Fore.LIGHTRED_EX}Error:{Fore.RESET} invalid alias.')
+    print(f'{Fore.LIGHTRED_EX}Error:{Fore.RESET} invalid alias')
 def invalid_p():
-    print(f'{Fore.LIGHTRED_EX}Error:{Fore.RESET} invalid package.')
+    print(f'{Fore.LIGHTRED_EX}Error:{Fore.RESET} invalid package')
 def invalid_c():
-    print(f'{Fore.LIGHTRED_EX}Error:{Fore.RESET} invalid command.')
+    print(f'{Fore.LIGHTRED_EX}Error:{Fore.RESET} invalid command')
 def invalid_no():
-    print(f'{Fore.LIGHTRED_EX}Error:{Fore.RESET} not enough arguments.')
+    print(f'{Fore.LIGHTRED_EX}Error:{Fore.RESET} not enough arguments')
 def invalid_na():
-    print(f'{Fore.LIGHTRED_EX}Error:{Fore.RESET} no alias specified.')
+    print(f'{Fore.LIGHTRED_EX}Error:{Fore.RESET} no alias specified')
 def invalid_nv():
-    print(f'{Fore.LIGHTRED_EX}Error:{Fore.RESET} no version specified.')
+    print(f'{Fore.LIGHTRED_EX}Error:{Fore.RESET} no version specified')
 def invalid_ta():
-    print(f'{Fore.LIGHTRED_EX}Error:{Fore.RESET} too many arguments.')
+    print(f'{Fore.LIGHTRED_EX}Error:{Fore.RESET} too many arguments')
 def nvm_ls():
     print("Installed Node versions:")
     print(f'{ver} / LTS - Modified version of jsc command')
