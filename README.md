@@ -3,7 +3,7 @@ A [Node.js](https://nodejs.org)-like program that I coded for iOS/iPadOS a-Shell
 
 > Coded in Python
 
-> Please note that this is not an official release of Node.js, and that this may not include every feature
+> Please note that this is not an official release of Node.js, and that this program may not include every feature
 
 ### Install:
 
@@ -51,9 +51,9 @@ Run this command in a-Shell:
 rm -rfv ~/Documents/.nvm
 ```
 
-Now find these lines and remove them in ```~/Documents/.bashrc``` and ```~/Documents/.profile```, or which ever file you used to install Node.js:
+Now find these lines and remove them in ```~/Documents/.bashrc``` or ```~/Documents/.profile``` (Which ever file you used to install Node.js):
 
-(If the lines don't exist in a file then you can ignore it and/or go to the next one.)
+> If the lines don't exist in the file then Node.js might already be uninstalled
 
 ```
 alias nvm="python3 -ub ~/Documents/.nvm/bin/nvm.py"
