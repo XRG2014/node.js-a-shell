@@ -1,6 +1,7 @@
 import sys
 import os
 import time
+from colorama import Fore
 
 ver = "2.x"
 
