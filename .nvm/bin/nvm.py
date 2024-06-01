@@ -1,13 +1,6 @@
 import sys
 import os
 import time
-try:
-    from colorama import Fore
-except ImportError:
-    print("Installing Dependencies...")
-    time.sleep(0.9)
-    pkgs = "colorama"
-    os.system(f'python3 -ubm pip install {pkgs}')
 
 ver = "2.x"
 
