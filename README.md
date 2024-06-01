@@ -65,15 +65,24 @@ alias node="python3 -ub ~/Documents/.nvm/bin/node.py"
 #### Node.js Help Text
 
 ```
-usage: node [--help] [--version] [--in-window] [--silent] [-hv?] <file>")
-    -?, -h, --help:  display help text")
-    -v, --version:   display current version")
-    --in-window:     runs inside the main window (this can change terminal appearance or behaviour; use with caution)")
-    --silent:        do not print output of the JavaScript execution")
+usage: node [--help] [--version] [--in-window] [--silent] [-hv?] <file>
+    -?, -h, --help:  display help text
+    -v, --version:   display current version
+    --in-window:     runs inside the main window (this can change terminal appearance or behaviour; use with caution)
+    --silent:        do not print output of the JavaScript execution
 ```
 
 #### Node.js Help Text
 
 ```
-
+usage: nvm [--help] [--version] [-hv?] ...
+    -?, -h, --help:              display help text
+    -v, --version, version:      display current set version of Node
+    ls-remote, version-remote:   list available Node releases / versions
+    list:                        display all installed versions of Node
+    ls:                          display all installed versions of Node with extra release info
+    use, install:                set current version of Node
+    alias:                       set Node version alias
+    exec, run:                   run javascript program with Node
+    which:                       display path to Node executable
 ```
