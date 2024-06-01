@@ -59,3 +59,21 @@ Now find these lines and remove them in ```~/Documents/.bashrc``` or ```~/Docume
 alias nvm="python3 -ub ~/Documents/.nvm/bin/nvm.py"
 alias node="python3 -ub ~/Documents/.nvm/bin/node.py"
 ```
+
+### Help Text:
+
+#### Node.js Help Text
+
+```
+usage: node [--help] [--version] [--in-window] [--silent] [-hv?] <file>")
+    -?, -h, --help:  display help text")
+    -v, --version:   display current version")
+    --in-window:     runs inside the main window (this can change terminal appearance or behaviour; use with caution)")
+    --silent:        do not print output of the JavaScript execution")
+```
+
+#### Node.js Help Text
+
+```
+
+```
