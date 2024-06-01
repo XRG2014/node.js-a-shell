@@ -72,7 +72,7 @@ usage: node [--help] [--version] [--in-window] [--silent] [-hv?] <file>
     --silent:        do not print output of the JavaScript execution
 ```
 
-#### Node.js Help Text
+#### NVM Help Text
 
 ```
 usage: nvm [--help] [--version] [-hv?] ...
