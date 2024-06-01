@@ -37,6 +37,12 @@ echo 'alias node="python3 -ub ~/Documents/.nvm/bin/node.py"' | tee -a ~/Document
 
 ### Uninstall:
 
+(optional) Uninstall dependencies:
+
+```
+pip uninstall colorama
+```
+
 Run this command in a-Shell:
 
 ```
