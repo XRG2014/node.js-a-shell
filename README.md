@@ -51,7 +51,7 @@ rm -rfv ~/Documents/.nvm
 
 Now find these lines and remove them in ```~/Documents/.bashrc``` and ```~/Documents/.profile```, or which ever file you used to install Node.js:
 
-(If the lines don't exist in a file then you can ignore it and go to the next one.)
+(If the lines don't exist in a file then you can ignore it and/or go to the next one.)
 
 ```
 alias nvm="python3 -ub ~/Documents/.nvm/bin/nvm.py"
