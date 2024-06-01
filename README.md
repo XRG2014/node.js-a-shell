@@ -5,6 +5,12 @@ Coded in Python.
 
 ### Install:
 
+Install dependencies:
+
+```
+pip install colorama
+```
+
 Run these commands in a-Shell:
 
 ```
