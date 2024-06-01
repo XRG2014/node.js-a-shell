@@ -49,7 +49,7 @@ Run this command in a-Shell:
 rm -rfv ~/Documents/.nvm
 ```
 
-Now find these lines and remove them in ```~/Documents/.bashrc``` and ```~/Documents/.profile```, or which ever one you used to install Node.js:
+Now find these lines and remove them in ```~/Documents/.bashrc``` and ```~/Documents/.profile```, or which ever file you used to install Node.js:
 
 (If the lines don't exist in a file then you can ignore it and go to the next one.)
 
