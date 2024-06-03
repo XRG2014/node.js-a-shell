@@ -5,6 +5,14 @@ A [Node.js](https://nodejs.org)-like program that I coded for iOS/iPadOS a-Shell
 
 > Please note that this is not an official release of Node.js, and that this program may not include every feature
 
+## Table of Contents:
+
+- [Install](/#install)
+- [Uninstall](/#uninstall)
+- [Help Text](/#help-text)
+  - [Node.js Help Text](nodejs-help-text)
+  - [NVM Help Text](nvm-help-text)
+
 ### Install:
 
 Install dependencies:
