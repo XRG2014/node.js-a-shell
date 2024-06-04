@@ -3,7 +3,7 @@ A [Node.js](https://nodejs.org)-like program that I coded for iOS/iPadOS a-Shell
 
 > Coded in Python
 
-> Please note that this is not an official release of Node.js, and that this program may not include every feature
+> Please note that this is not an official release of Node.js, and that this program may not include every feature and some may be changed or tweaked
 
 ## Table of Contents:
 
