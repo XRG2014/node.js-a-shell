@@ -1,9 +1,9 @@
 # Node.js for iOS/iPadOS [a-Shell](https://holzschu.github.io/a-Shell_iOS)
-A Node.js-like Python script that I coded for iOS/iPadOS a-Shell. It uses the jsc command, and it includes a fake Node Version Manager.
+A Node.JS-like Python script that I coded for iOS/iPadOS a-Shell. It uses the jsc command, and it includes a fake Node Version Manager.
 
-> Please note that this is not an official release of Node.js, and that this program may not include every feature and some may be changed or tweaked
+> Please note that this is not an official release of Node.JS, and that this program may not include every feature and some may be changed or tweaked
 
-## Table of Contents:
+## Table of Contents
 
 - [Install](/#install)
 - [Uninstall](/#uninstall)
@@ -11,15 +11,15 @@ A Node.js-like Python script that I coded for iOS/iPadOS a-Shell. It uses the js
   - [Node.js Help Text](nodejs-help-text)
   - [NVM Help Text](nvm-help-text)
 
-### Install:
+## Install
 
-Install dependencies:
+Install dependencies
 
 ```
 pip install colorama
 ```
 
-Run these commands in a-Shell:
+Run these commands in a-Shell
 
 ```
 mkdir -p ~/Documents/.nvm/bin
@@ -27,7 +27,7 @@ curl https://github.com/XRG2014/node.js-a-shell/blob/main/.nvm/bin/nvm.py -o ~/D
 curl https://github.com/XRG2014/node.js-a-shell/blob/main/.nvm/bin/node.py -o ~/Documents/.nvm/bin/node.py
 ```
 
-Now run **ONLY ONE PAIR** of commands shown below:
+Now run **ONLY ONE PAIR** of commands shown below
 
 > _This one uses ```~/Documents/.bashrc```_:
 
@@ -43,32 +43,32 @@ echo 'alias nvm="python3 -ub ~/Documents/.nvm/bin/nvm.py"' | tee -a ~/Documents/
 echo 'alias node="python3 -ub ~/Documents/.nvm/bin/node.py"' | tee -a ~/Documents/.profile
 ```
 
-### Uninstall:
+## Uninstall
 
-(optional) Uninstall dependencies:
+(optional) Uninstall dependencies
 
 ```
 pip uninstall colorama
 ```
 
-Run this command in a-Shell:
+Run this command in a-Shell
 
 ```
 rm -rfv ~/Documents/.nvm
 ```
 
-Now find these lines and remove them in ```~/Documents/.bashrc``` or ```~/Documents/.profile``` (Which ever file you used to install Node.js):
+Now find these lines and remove them in ```~/Documents/.bashrc``` or ```~/Documents/.profile``` (Which ever file you used to install Node.js)
 
-> If the lines don't exist in the file then Node.js might already be uninstalled
+> If the lines don't exist in the file then Node.JS might already be uninstalled
 
 ```
 alias nvm="python3 -ub ~/Documents/.nvm/bin/nvm.py"
 alias node="python3 -ub ~/Documents/.nvm/bin/node.py"
 ```
 
-### Help Text:
+## Help Text
 
-#### Node.js Help Text
+### Node.JS Help Text
 
 ```
 usage: node [--help] [--version] [--in-window] [--silent] [-hv?] <file>
@@ -78,7 +78,7 @@ usage: node [--help] [--version] [--in-window] [--silent] [-hv?] <file>
     --silent:        do not print output of the JavaScript execution
 ```
 
-#### NVM Help Text
+### NVM Help Text
 
 ```
 usage: nvm [--help] [--version] [-hv?] ...
