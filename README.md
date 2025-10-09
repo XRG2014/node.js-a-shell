@@ -1,7 +1,5 @@
 # Node.js for iOS/iPadOS [a-Shell](https://holzschu.github.io/a-Shell_iOS)
-A [Node.js](https://nodejs.org)-like program that I coded for iOS/iPadOS a-Shell. It uses the jsc command, and it includes a fake [NVM](https://github.com/nvm-sh/nvm) (Node Version Manager).
-
-> Coded in Python
+A Node.js-like Python script that I coded for iOS/iPadOS a-Shell. It uses the jsc command, and it includes a fake Node Version Manager.
 
 > Please note that this is not an official release of Node.js, and that this program may not include every feature and some may be changed or tweaked
 
